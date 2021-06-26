@@ -1,0 +1,1085 @@
+@font-face{
+    font-family:"Cairo-Black";
+    src:url("../fonts/Cairo-Black.ttf");
+}
+@font-face{
+    font-family:"Cairo-Bold";
+    src:url("../fonts/Cairo-Bold.ttf");
+}
+@font-face{
+    font-family:"Cairo-ExtraLight";
+    src:url("../fonts/Cairo-ExtraLight.ttf");
+}
+@font-face{
+    font-family:"Cairo-Light";
+    src:url("../fonts/Cairo-Light.ttf");
+}
+@font-face{
+    font-family:"Cairo-Regular";
+    src:url("../fonts/Cairo-Regular.ttf");
+}
+@font-face{
+    font-family:"Cairo-SemiBold";
+    src:url("../fonts/Cairo-SemiBold.ttf");
+}
+@font-face {
+    font-family: "DUBAI-REGULAR";
+    src: url("../fonts/DUBAI-REGULAR.OTF");
+}
+img{
+    width:100%;
+}
+ul{
+    padding:0;
+    margin:0;
+}
+form{
+    margin:0
+}
+a{
+    color:black
+}
+a:hover{
+    text-decoration: none;
+}
+header{
+    height:116px;
+    z-index: 9999999;
+    background-color: black;
+}
+.logo{
+    width:110px;
+    display: block;
+    margin-right:50px;
+}
+
+body{
+    direction: ltr;
+    text-align: left;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family:"Cairo-Regular";
+    background-color:black;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    background-image: url(../images/background.png);
+}
+body:before{
+background-color: #000000;
+position: absolute;
+content:"";
+top:0;
+width:100%;
+height:100%;
+left:0;
+right:0;
+opacity: .8;
+
+}
+h1,h2,h3{
+    font-family:"Cairo-Bold";
+
+}
+h4,h5,h6{
+    font-family:"Cairo-Black";
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color:white;
+    font-size:1.125em;
+    padding:0 17px;
+}
+
+.navbar.navbar-expand-lg{
+    padding-top:30px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color:#FFC300
+}
+.navbar-expand-lg .navbar-nav .nav-item:first-child .nav-link{
+    padding-left:0;
+    padding-right:26px
+}
+.navbar-expand-lg .navbar-nav .nav-item:first-child .nav-link.mobileHome{
+    padding:0 17px;
+
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    background-color:black;
+    text-align: left;
+}
+.nav-item .dropdown-item{
+    color:white;
+    font-size:1.125em;
+}
+.nav-item .dropdown-item:hover{
+    background-color: transparent;
+    color:#FFC300
+}
+.joinUs{
+    background-color: #FFC300;
+    width:170px;
+    height:47px;
+    border-radius: 8px;
+    font-size: 1.25em;
+    color:#000000;
+    font-family:"Cairo-Bold";
+margin-left:44px;
+border:2px solid transparent;
+transition: all .5s;
+
+}
+.joinUs:hover{
+    background-color:transparent;
+    border:2px solid #FFC300;
+    transition: all .5s;
+    color:white;
+}
+.hero{
+    padding-top:60px;
+    padding-bottom: 120;
+}
+#heroSlider .carousel-inner{
+    overflow: hidden;
+
+}
+.carousel-inner img{
+    height: -webkit-fill-available;
+}
+.carousel-control-next, .carousel-control-prev{
+    width:50px;
+    padding:13px;
+    opacity: 1;
+    height: 50px;
+    background-color: rgba(0,0,0,.56);
+    top:50%;
+}
+.carousel-control-prev{
+    left:10px;
+}
+.carousel-control-next{
+    right:10px;
+}
+.sliderdetails{
+    text-align: center;
+}
+.carousel-indicators li{
+    border: 0;
+}
+.carousel-indicators{
+    margin: auto;
+    text-align: center;
+    display: block;
+    padding: 0;
+    bottom: -60px;;
+}
+.carousel-indicators li{
+    width:16%;
+    opacity: .23;
+    margin-left: 0;
+    margin-right: 5px;
+    display: inline-block;
+}
+.carousel-indicators li:last-child{
+    margin-right:0;
+}
+.carousel-indicators .active{
+    height:5px;
+}
+#heroSlider .carousel-item {
+    position: relative;
+}
+#heroSlider .carousel-item:before{
+    position: absolute;
+    content:"";
+    right:0;
+    bottom:0;
+    width:100%;
+    height:20%;
+    background-image: linear-gradient(to top ,#000 , rgba(0,0,0,0));
+    z-index: 0;
+
+}
+.heroText{
+position: absolute;
+    font-family:"Cairo-Bold";
+    font-size: 1.5em;
+    color:white;
+    bottom:36px;
+    width:100%;
+    padding:0 40px 
+}
+.heroText a{
+    color:white;
+    font-size: 1em;
+}
+.smallLogo{
+    margin:auto;
+    width:60px;
+    margin-bottom: 30px;;
+}
+.timeAdd{
+margin-right:60px;
+}
+.timeAdd,.seeDetails{
+    display: inline-block;
+}
+.detailsIcon{
+    width:45px;
+    height:45px;
+    padding:10px;
+    border:2px solid rgba(255,255,255,.3);
+    border-radius: 50%;
+    margin-right:23px;
+}
+.timeDetails span,.seeLink span{
+    font-size: 0.875em;
+    color:white;
+    opacity: .5;
+    margin-right: 10px;;
+}
+.timeDetails,.detailsIcon{
+    display:inline-block
+}
+.seeLink span{
+opacity: 1;
+}
+.seeLink:hover span{
+    color:#FFC300
+}
+footer{
+    background-color: black;
+    padding:27px 0;
+}
+.footerLogo{
+width: 60px;
+margin-right:14px;
+display: inline-block;
+}
+.socialIcons{
+    text-align: right;
+}
+.socialIcons li{
+    display: inline-block;
+    list-style-type: none;
+}
+.socialIcons li a{
+    color:white;
+    font-size:1.25em;
+    margin-left:20px;
+}
+.CopyRights p{
+    margin:0;
+    color:white;
+    font-size:0.875em;
+    display: inline-block;
+    width:85%;
+
+}
+.innerHeader{
+ padding:50px 0;   
+}
+.innerHeader h2{
+    font-size: 1.5em;
+    font-family:"Cairo-Regular";
+
+}
+.innerheaderLinks{
+    text-align: right;
+}
+.innerheaderLinks a{
+font-size:1em;
+color:#919191;
+}
+.innerheaderLinks a:hover{
+    color:#FFC300
+}
+.innerBody{
+    padding:134px 0 176px;
+    background-color: black;
+    position: relative;
+}
+.aboutBody{
+    padding-top:40px;
+    padding-bottom: 14px;;
+}
+.leftSideBox,.programContent{
+    padding:24px 30px;
+    background-image: linear-gradient(25deg  , rgba(0,0,0,.64) 48% , rgba(71, 69, 69, .64) 78%  );
+    height:350px;
+}
+.aboutUsBox{
+    padding:24px 30px;
+    background-image: linear-gradient(25deg  , rgba(0,0,0,.64) 48% , rgba(71, 69, 69, .64) 78%  );
+    position: relative;
+}
+.aboutLogo{
+    position: absolute;
+    width: 40%;
+    top:30%;
+    right: 30%;
+    z-index: 0;
+}
+.aboutUsBox p,.Vision p{
+    font-size: 1em;
+    line-height: 2;
+    font-family: "DUBAI-REGULAR";
+}
+.aboutUsBox h3{
+font-size:1.1em;
+margin-bottom:18px;
+}
+.leftSideBox{
+    position: relative;
+    padding:0;
+}
+.leftSideBox:before{
+    position: absolute;
+    content: "";
+    width:100%;
+    height:2px;
+    top:0;
+    right:0;
+    background-image: linear-gradient(to right , #FFCC08 0%, rgba(0,0,0,0) 90%);
+}
+.Vision h3{
+    font-size:1.1em;
+    color:white;
+    margin-bottom:9px;
+}
+.Vision h3 i{
+    color:#FFC300;
+    margin-right:15px;
+}
+#visionSlider .carousel-indicators {
+    bottom: 0;
+display: flex;}
+#visionSlider .carousel-indicators li{
+    width:48%;
+
+}
+#visionSlider .carousel-inner{
+    padding:28px 25px;
+}
+#visionSlider{
+    height:100%;
+}
+.programBody{
+    display: none;
+}
+.programContent{
+    margin-bottom: 30px;
+    height: auto;
+}
+.programHeader h3 {
+    font-size:1.1em;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.programHeader h3 a{
+    color:white;
+}
+.programHeader i{
+    float: right;
+    color:#FFCC08
+}
+.programBody p{
+    color:white;
+    font-size: 1em;
+    line-height: 2;
+}
+.programPage {
+    padding-bottom: 50px;
+    padding-top:50px;
+}
+.programPage .aboutLogo{
+right:15%;
+left:auto;
+top:0;
+width:30%;;
+}
+.nav-tabs{
+    text-align: center;
+}
+
+
+
+.nav-tabs .nav-item:last-child .nav-link{
+    margin-right:0
+}
+.nav-tabs .nav-link.active span svg path:last-child{
+    fill:#000000 !important;
+}
+#pills-tabConten{
+margin-top:66px
+}
+.mediaBody{
+    padding-top:50px;
+}
+#pills-tab{
+    border-bottom: 0;;
+}
+#pills-tab .nav-link{
+    text-align: center;
+}
+#pills-tab .nav-link span{
+    display: block;
+    width:32px;
+    margin: auto;
+    margin-bottom: 16px;;
+}
+.nav-tabs .nav-item.show .nav-link.nav-tabs .nav-item .nav-link:hover{
+    border:0;
+    border-radius: 0;
+}
+
+.nav-tabs .nav-link{
+    border:0;
+    font-size:1.5em;
+color:white;
+padding:20px 0;
+height:120px;
+border-radius: 16px;
+background-color: #131212;
+width: 100%;
+font-family:"Cairo-Bold";
+position: relative;
+z-index: 1;
+
+}
+.arrow-down {
+    z-index: -1;
+    width: 0; 
+    height: 0; 
+    border-right: 18px solid transparent;
+    border-left: 18px solid transparent;
+    position: absolute;
+    border-top: 18px solid #FFCC08;
+    bottom:-18px;;
+    right:45%;
+    display: none;
+  }
+.nav-tabs .nav-link.active{
+    background-color: #FFCC08;
+    color:#000000;   
+}
+.nav-tabs .nav-link.active .arrow-down {
+    display: block;
+}
+.tab-content{
+    margin-top:50px;
+}
+.pillsTitle{
+    margin-bottom:50px;
+    font-size:1.5em;
+    color:white;
+
+    font-family:"Cairo-Bold";
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #000000;
+    background-image: none;
+    font-size:.9em;
+
+  }
+  /* Remove IE arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select */
+  .select {
+    position: relative;
+    display: flex;
+    width: 192px;;
+    height: 50px;
+    line-height: 3;
+    overflow: hidden;
+    border-radius: 25px;
+    border:1px solid #fff;
+    float:right
+  }
+  select {
+    flex: 1;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    padding:18px;
+  }
+  /* Arrow */
+  select {
+    flex: 1;
+    padding: 0 18px;;
+    color: #fff;
+    cursor: pointer;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 10px;;
+    right: 0;
+    padding: 0 1em;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+    color: #FFC300;
+    font-size:.8em;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #f39c12;
+  }
+  select option:hover{
+      background-color: #FFC300;
+  }
+
+button:focus{
+    outline: 0;
+}
+.newsBox h6{
+    font-size: 1em;
+    margin-top:20px;
+    margin-bottom:28px;
+    overflow: hidden;
+    font-family:"Cairo-Regular";
+}
+.newsBox{
+    cursor: pointer;
+    margin-bottom: 33px;;
+}
+.newsBox:hover h6{
+color:#ffcc08;
+}
+.date{
+    font-size:.9em;
+    color:#ffcc08;
+}
+.date i{
+    width:20px;
+    height: 15px;
+    display: inline-block;
+    margin-right:5px;
+}
+.tag{
+    width:86px;
+    border-radius: 16px;
+    height: 32px;;
+    margin-top:30px;
+    background-color: #1E1E1B;
+    padding:7px;
+}
+.tag i{
+width:18px;
+margin-right:12px;
+display: block;
+float: left;
+}
+.newsImg{
+    position: relative;
+    width:100%;
+    height:180px;
+    overflow: hidden;
+    filter: grayscale(100%);
+
+}
+.newsBox:hover .newsImg img{
+    transform:scale(1.1);
+    transition: all .5s;;
+}
+.newsImg img{
+    height: 100%;;
+    transition: all .5s;;
+}
+.newsImg video,.relatedRightSide iframe,.relatedRightSide video{
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    object-fit: cover;
+}
+.newsImg iframe,.relatedRightSide iframe,.relatedRightSide iframe{
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    object-fit: cover;
+}
+.relatedRightSide iframe{
+    height:100%;
+}
+.newsImg iframe,.relatedRightSide iframe,.relatedRightSide iframe{
+    min-height: 100%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    object-fit: cover;
+}
+.tag:before{
+    clear: both;
+}
+.share{
+    float:right;
+
+}
+.share i{
+    width:24px;
+    margin-right:10px;
+    display: inline-block;
+}
+.newsDetailsHeader{
+    margin-top:23px;
+    margin-bottom: 30px;;
+}
+.newsDetailsHeader .date,.newsDetailsHeader .tag{
+    float:left;
+    margin:0;
+    padding:7px
+}
+.newsDetailsHeader .date{
+    margin-left:30px;
+}
+.detailsLogo{
+    width:60px;
+    margin-bottom: 20px;;
+}
+.newsDetailsBox h6{
+    font-size: 1.1em;
+    margin-bottom: 18px;
+    font-family:"Cairo-Bold";
+
+}
+.newsDetailsBox p{
+    font-size:1em;
+    line-height: 2;
+}
+.related{
+    font-family:"Cairo-Bold";
+    font-size:1.1em;
+    margin-bottom: 30px;
+}
+.relatedRightSide{
+    float:left;
+    width:82px;
+    height: 55px;;
+}
+.relatedList li{
+    list-style: none;
+margin-bottom: 33px;
+}
+.relatedList li:last-child{
+    margin-bottom: 0;
+}
+.relatedLeftSide{
+    width:68%;
+    float:left;
+margin-left:20px;
+}
+.relatedBox h6{
+    font-size:.8em;
+    line-height: 2;
+}
+.relatedBox .tag{
+    margin: 0;
+    height: 14px;
+    font-size: .6em;
+    padding: 1px;
+    width: 39px;
+}
+.relatedBox .tag i{
+    width: 6px;
+    margin: 3px;
+    margin-right:4px;
+}
+.freeSpace{
+margin-top:27px;
+background-image: linear-gradient( 45deg ,rgba(0,0,0,.64) 0, rgba(71, 69, 69, .6) 100% );
+padding:30px;
+}
+.contactTitle{
+    font-size :1.1em;
+    color:white;
+    margin-bottom: 45px;
+    font-family:"Cairo-Bold";
+}
+.contactAddress h6{
+    font-family:"Cairo-Bold";
+    font-size:.8em;
+    color:#ffcc08;
+    margin-bottom:10px;
+}
+
+.contactIcon{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    border:2px solid #373535;
+    padding:7px;
+    float:left;
+    margin-right:15px;
+}
+.contactIcon i{
+    color:white;
+    font-size:1.2em;
+}
+.address{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+
+}
+.address li{
+    font-size:.8em;
+    color:white;
+    margin-bottom:20px;
+    line-height: 33px;;
+}
+.contactInfo{
+    margin-bottom: 40px;;
+
+}
+.socialIconsContact {
+    margin-top: 15px;;
+}
+.socialIconsContact li{
+    display: inline-block;
+    margin-right:15px;
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    border:2px solid #373535;
+    padding:4px;
+}
+.socialIconsContact li:last-child{
+    margin-right:0;
+}
+.socialIconsContact li svg{
+    width:100%;
+}
+.socialIconsContact li:hover svg path:last-child{
+    fill:#ffcc08
+}
+.contactForm .form-group{
+    width:47%;
+    display: inline-block;
+    margin-bottom: 34px;;
+}
+.contactForm .form-group.marginleft{
+margin-right:25px;
+}
+.contactForm .form-control{
+    width:100%;
+    border:2px solid #373535;
+    border-radius: 24px;
+    background-color: transparent;
+    height:54px;
+}
+.contactForm .form-control:focus{
+    outline: 0;
+    box-shadow: none;
+}
+.contactForm .form-group.textareagroup{
+    width:100%;
+}
+.sendBtn{
+    display: block;
+    width:102px;
+    height:54px;
+    border-radius: 27px;
+    margin:auto;
+    background-color: #FFCC08;font-size:1.1em;
+    color:#000000;
+    font-family:"Cairo-Bold";
+    margin-top:45px;
+    border:2px solid transparent;
+    transition: all .5s;
+  
+}
+.sendBtn:hover{
+    background-color: transparent;
+    border:2px solid #ffcc08;
+    transition: all .5s;
+    color: #ffcc08;
+}
+.contactForm .form-control.textareafromControl{
+    height:155px;
+    resize: none;
+}
+#pills-tab .nav-link span svg{
+    width:100%;
+}
+.modal .modal-dialog{
+    max-width:60%;
+}
+.modal-content{
+    background-color: #505050;
+    border-radius: 24px;;
+    padding:60px 50px
+}
+.modal-header{
+    border-bottom: 0;
+    padding:0;
+    margin-bottom:40px;
+
+}
+.modal-header h5{
+    font-family:"Cairo-Bold";
+    font-size:1.5em;
+
+}
+.modal-header .close{
+    margin:0;
+    color:white;
+    opacity: 1;
+    padding: 0}
+
+    .joinForm label{
+        text-align: right;
+        display: block;
+        margin-right:19px;
+        font-size: .9em;
+        padding:10px 0;
+    }
+     .joinForm ,.joinForm .form-group .col-md-6,.col-md-3,.col-md-9{
+        padding:0;
+    }
+.joinForm  .form-control{
+border:2px solid white;
+color:white;
+font-size:.9em;
+border-radius: 27px;
+height:50px;
+
+}
+.joinForm .form-group{
+    margin-bottom: 20px;;
+}
+
+.joinModalBtn{
+    margin:0;
+    margin-top:37px;
+    width:150px;
+}
+@media(min-width:300px) and (max-width :767px){
+    body{
+        font-size:12px;
+    }
+    header{
+        height: auto;
+
+    }
+.carousel-inner{
+    height: auto;
+}
+.carousel-inner img{
+    height:auto
+}
+    .navbar-toggler{
+        background-color: black;
+        border-radius: 8px;
+        width:45px;
+        height:45px;
+        position: relative;
+        padding:10px;
+}
+.navbar-toggle i{
+    content:"";
+background-color: white;
+display: block;
+margin-bottom: 5px;
+width:20px;
+height: 3px;
+}
+.navbar-toggle i:first-child{
+width:23px;
+}
+.navbar-toggle i:last-child{
+    width:17px;
+    margin-bottom: 0;
+}
+.joinUs{
+    width:100%;
+    margin-top:20px;
+    margin-left:0;
+}
+
+.close{
+    float:right;
+
+}
+.logo{
+    margin-right:0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+    font-size: 1.125em;
+    padding: 20px;
+}
+.navbar-expand-lg .navbar-nav .nav-item:first-child .nav-link {
+    padding-left: 26px;
+}
+.hero{
+    padding-top:20px;
+    padding-bottom:50px;
+}
+
+.CopyRights{
+    text-align: center;
+
+}
+.CopyRights p{
+    margin:20px 0
+}
+.socialIcons{
+    text-align: center;
+    margin-top:20px;
+}
+.navbar.navbar-expand-lg{
+    width:100%;
+}
+.timeAdd, .seeDetails{
+    display: block;
+}
+.carousel-indicators{
+    bottom:-40px;
+}
+.carousel-indicators li {
+    width: 14%;}
+.sliderdetails{
+text-align: left;
+}
+.timeAdd{
+    margin-bottom: 20px;;
+}
+.aboutUsBox,.leftSideBox{
+    height: auto;
+    margin:10px 0
+}
+.aboutLogo{
+    width:100%;
+    right:0;
+}
+.innerBody{
+    padding-bottom:50px;
+}
+.contactForm .form-group{
+    width: 100%;;
+}
+.contactForm .form-group.form-group.marginleft{
+    margin-right:0;
+}
+#heroSlider .carousel-inner{
+    height:250px;
+}
+.carousel-control-next, .carousel-control-prev{
+    top:25%;
+
+}
+.heroText{
+    bottom:3px;
+    font-size:1.25em
+}
+.leftSideBox, .programContent{
+    padding:20px 9px;
+}
+.accordion-panel span{
+    float:left;
+    width:95%;
+    line-height: 1.5;
+}
+.nav-tabs .nav-item{
+    padding:0 5px
+}
+.nav-tabs .nav-link{
+    padding:8px 0;
+    height:80px;
+}
+#pills-tab .nav-link span{
+    width:25px;
+    margin-bottom: 3px;
+}
+.arrow-down {
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    bottom: -10px;
+    right: 42%
+}
+#pills-tab .nav-link{
+    font-size: 1em;;
+}
+.select{
+    float:none;
+    margin-bottom: 20px;;
+}
+.newsImg{
+height: 135px;;
+}
+.innerheaderLinks{
+    text-align: left;
+    margin:20px 0
+}
+.innerBody{
+    padding:35px 0
+}
+.modal .modal-dialog{
+    max-width: 96%;
+}
+
+.joinForm label{
+    text-align: left;
+}
+.modal-content{
+    padding:25px
+}
+.modal-header{
+    padding:0 15px;
+}
+}  
+@media(min-width:768px) and (max-width:1023px){
+    .modal .modal-dialog{
+        max-width:96%
+    }
+    .modal-header{
+        padding:0 15px;
+    }
+    .modal-body{
+        padding:25px;
+    }
+    .heronewsDetails{
+margin-top:0;
+    }
+    header .searchBox{
+        display: none;
+    }
+    body{
+        font-size: 14px;
+    }
+    .socialIcons li{
+        margin-right:15px;
+    }
+    .footerMenuSection {
+        margin-top: 20px;
+        padding-top:40px;}
+        .footerMenu{
+            padding-bottom:30px;
+        }
+.newsImg img{
+    width:100%;
+}
+.contactForm .form-group.marginGroup {
+    margin-right: 17px;
+}
+.contactInfoSec li .contactInfo:last-child{
+    margin-right:0;
+}
+}         
